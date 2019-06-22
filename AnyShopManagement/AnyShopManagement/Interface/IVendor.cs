@@ -4,9 +4,9 @@ namespace AnyShopManagement.Interface
 {
     public interface IVendor
     {
-        bool AddNewVendor(Customer customer);
-        bool DeleteVendor(Customer customerNumber);
-        Customer GetVendorInformation(Customer customerNumber);
-        IEnumerable<Customer> GetAllVendors();
+        bool AddNewVendor(TRequest customer);
+        bool DeleteVendor(TRequest customerNumber);
+        TRequest GetVendorInformation(TRequest customerNumber);
+        IEnumerable<TRequest> GetAllVendors();
     }
 }

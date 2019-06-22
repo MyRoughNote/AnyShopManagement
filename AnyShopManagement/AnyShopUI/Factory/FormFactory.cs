@@ -1,10 +1,8 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-using System.Windows.Forms;
+﻿using System.Windows.Forms;
 using AnyShopUI.Forms;
+using AnyShopManagement.ServiceFactory;
+using AnyShopManagement.Interface;
+
 
 namespace AnyShopUI.Factory
 {
@@ -15,7 +13,7 @@ namespace AnyShopUI.Factory
             switch (formName)
             {
                 case "MAIN": return new Dashboard();
-                default: return new Dashboard();
+                default: return new Login();
             }
         }
         

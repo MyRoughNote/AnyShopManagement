@@ -3,11 +3,12 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
 using System.Windows.Forms;
-using AnyShopManagement.Adapters;
+using AnyShopUI.Factory;
+
 namespace AnyShopUI
 {
     static class Program
-    {
+    {        
         /// <summary>
         /// The main entry point for the application.
         /// </summary>
@@ -16,7 +17,7 @@ namespace AnyShopUI
         {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new Login(new AuthenticateService()));
+            Application.Run(FormFactory.Show("MAIN"));
         }
     }
 }

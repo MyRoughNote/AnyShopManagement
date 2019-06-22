@@ -6,22 +6,22 @@ namespace AnyShopManagement.Adapters
 {
     internal class VendorService : IVendor
     {
-        public bool AddNewVendor(Customer customer)
+        public bool AddNewVendor(TRequest customer)
         {
             throw new System.NotImplementedException();
         }
 
-        public bool DeleteVendor(Customer customerNumber)
+        public bool DeleteVendor(TRequest customerNumber)
         {
             throw new System.NotImplementedException();
         }
 
-        public IEnumerable<Customer> GetAllVendors()
+        public IEnumerable<TRequest> GetAllVendors()
         {
             throw new System.NotImplementedException();
         }
 
-        public Customer GetVendorInformation(Customer customerNumber)
+        public TRequest GetVendorInformation(TRequest customerNumber)
         {
             throw new System.NotImplementedException();
         }

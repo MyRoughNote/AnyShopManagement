@@ -7,29 +7,29 @@ namespace AnyShopManagement.Adapters
 {
     public class CustomerService : ICustomer
     {
-        private readonly Customer customer;
+        private readonly TRequest customer;
 
-        public CustomerService(Customer _customer)
+        public CustomerService(TRequest _customer)
         {
             customer = _customer;
         }
 
-        public bool AddNewCustomer(Customer customer)
+        public bool AddNewCustomer(TRequest customer)
         {
             throw new NotImplementedException();
         }
 
-        public bool DeleteCustomer(Customer customerNumber)
+        public bool DeleteCustomer(TRequest customerNumber)
         {
             throw new NotImplementedException();
         }
 
-        public IEnumerable<Customer> GetAllCustomers()
+        public IEnumerable<TRequest> GetAllCustomers()
         {
             throw new NotImplementedException();
         }
 
-        public Customer GetCustomerInformation(Customer customerNumber)
+        public TRequest GetCustomerInformation(TRequest customerNumber)
         {
             throw new NotImplementedException();
         }        

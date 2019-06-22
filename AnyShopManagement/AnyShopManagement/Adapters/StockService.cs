@@ -21,7 +21,7 @@ namespace AnyShopManagement.Adapters
             throw new System.NotImplementedException();
         }
 
-        public Customer GetStockInformation(Stock stockID)
+        public TRequest GetStockInformation(Stock stockID)
         {
             throw new System.NotImplementedException();
         }

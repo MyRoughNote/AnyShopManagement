@@ -5,9 +5,9 @@ namespace AnyShopManagement.Interface
 {
     public interface ICustomer
     {
-        bool AddNewCustomer(Customer customer);
-        bool DeleteCustomer(Customer customerNumber);
-        Customer GetCustomerInformation(Customer customerNumber);
-        IEnumerable<Customer> GetAllCustomers();
+        bool AddNewCustomer(TRequest customer);
+        bool DeleteCustomer(TRequest customerNumber);
+        TRequest GetCustomerInformation(TRequest customerNumber);
+        IEnumerable<TRequest> GetAllCustomers();
     }
 }

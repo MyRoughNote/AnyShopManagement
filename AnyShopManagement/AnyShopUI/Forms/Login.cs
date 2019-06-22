@@ -16,7 +16,10 @@ namespace AnyShopUI
     public partial class Login : Form
     {
         private readonly IValidate _Validate;
+        public Login()
+        {
 
+        }
         public Login(IValidate Validate)
         {
             InitializeComponent();

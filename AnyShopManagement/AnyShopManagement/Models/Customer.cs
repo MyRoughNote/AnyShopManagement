@@ -1,7 +1,7 @@
 ﻿using System;
 namespace AnyShopManagement.Models
 {
-    public class Customer
+    public class TRequest
     {
         public int CustomerNumber { get; set; }
         public Contact Contact { get; set; }

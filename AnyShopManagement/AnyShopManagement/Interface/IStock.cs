@@ -7,7 +7,7 @@ namespace AnyShopManagement.Interface
     {
         bool AddNewStock(Stock stock);
         bool DeleteStock(Stock stockID);
-        Customer GetStockInformation(Stock stockID);
+        TRequest GetStockInformation(Stock stockID);
         IEnumerable<Stock> GetAllStockList();
     }
 }
