@@ -4,7 +4,7 @@ using System.Text;
 
 namespace AnyShopManagement.Utilities
 {
-    internal static class ServiceType
+    public static class ServiceType
     {
         public static string Authenticate="AUTHENTICATE";
         public static string Customer="CUSTOMER";

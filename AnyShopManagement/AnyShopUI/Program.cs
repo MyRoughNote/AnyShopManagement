@@ -17,7 +17,7 @@ namespace AnyShopUI
         {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(FormFactory.Show("MAIN"));
+            Application.Run(FormFactory.Show("LOGIN"));
         }
     }
 }

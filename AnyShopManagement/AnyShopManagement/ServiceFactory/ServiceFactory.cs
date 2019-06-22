@@ -2,12 +2,13 @@
 using System.Collections.Generic;
 using System.Text;
 using AnyShopManagement.Adapters;
+using AnyShopManagement.Interface;
 
 namespace AnyShopManagement.ServiceFactory
 {
-    internal static class ServiceFactory
+    public static class ServiceFactory
     {
-        internal static object CreateAndInitialize(string ServiceType)
+        public static IValidate CreateAndInitialize(string ServiceType)
         {
             switch (ServiceType)
             {
